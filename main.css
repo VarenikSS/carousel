@@ -1,0 +1,11 @@
+body { 
+  max-width: 1050px;
+  margin: 0 auto;
+  margin-top: 150px;
+ }
+.carousel {
+  max-width: 900px;
+  }
+.carousel__next img, .carousel__prev img {
+  width:100%
+}

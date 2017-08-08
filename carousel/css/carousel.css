@@ -1,0 +1,37 @@
+.carousel-js {
+  position: relative;
+  overflow: hidden; }
+  .carousel-js__next, .carousel-js__prev {
+    position: absolute;
+    bottom: calc(50% - 25px);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 100; }
+  .carousel-js__prev {
+    left: 15px; }
+  .carousel-js__next {
+    right: 15px; }
+  .carousel-js__display {
+    width: 166.666%;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: transform 0.3s ease;
+    -moz-transition: transform 0.3s ease;
+    -ms-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    transition: transform 0.3s ease; }
+  .carousel-js__slide {
+    padding: 0 5px;
+    margin: auto; }
+    .carousel-js__slide img {
+      width: 100%; }
